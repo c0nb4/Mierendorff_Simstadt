@@ -1,0 +1,4 @@
+## Weather data
+
+Original weather data for the simulation is obtained as epw. Files need to be transfered to to [Simstadt format](https://simstadt.hft-stuttgart.de/). As an example, weather_data\Stuttgart-hour_example.csv is given.
+
