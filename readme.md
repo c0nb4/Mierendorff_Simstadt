@@ -12,6 +12,14 @@ The python script 'insert_attributes.py'can add attributes to CityGML files of t
 | DEBW_LOD2_2960   | 1978               | 1010     | Some old residential building |
 | DEBW_LOD2_2869   | 2017               | 2020     | Recent office building     |
 
+The python script 'transform_weather.py' transforms an .epw input file into a TMY3 format file for Simstadt. 
+
+The python script 'change_use_type.py' transforms the CityGML use type to one needed for SimStadt. 
+
+
+## Data and Auxillary files 
+
+All code for simulation is wihin the "SimStadt" folder. If you open the folder with SimStadt, the resepctive workflows can be run. 
 
 ## Contact 
 
