@@ -4,5 +4,8 @@
   <void property="name">
    <string>Base</string>
   </void>
+  <void property="oneFilePerBuilding">
+   <boolean>true</boolean>
+  </void>
  </object>
 </java>

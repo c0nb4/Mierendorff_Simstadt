@@ -14,7 +14,7 @@
 # Has custom building usage codes?;false
 #
 # SimStadt version;0.10.0-SNAPSHOT (master, rev. 6d7c707, 20230828)
-# Created at;2024/08/27 18:04:59
+# Created at;2024/08/27 19:02:13
 # Cache version;7
 #
 GMLId;ParentGMLId;Latitude;Longitude;X-coordinate;Y-coordinate;LOD;Year of construction;Year of refurbishment;Refurbishment Variant;ALKIS code;PrimaryUsageZoneType;PrimaryUsageZoneArea;SecondaryUsageZoneType;SecondaryUsageZoneArea;BuildingType;Footprint area;Total wall thermal area above ground;Total wall thermal area below ground;Total outwall area;Total sharedwall area;Total roof area;Gross volume;Is Gross volume approximated?;Heated volume;Ridge/mean Height;Eaves/mean Height;Storey number;Average Storey Height;Number of households;Number of occupants;Attic Heating;Basement Heating;Basement ceiling height above ground;Surface area to volume ratio;Heated area;Mean Uvalue;Specific domestic hot water demand;Specific space heating demand;Total Yearly Heat+DHW demand;January Heating Demand;February Heating Demand;March Heating Demand;April Heating Demand;May Heating Demand;June Heating Demand;July Heating Demand;August Heating Demand;September Heating Demand;October Heating Demand;November Heating Demand;December Heating Demand
