@@ -1,0 +1,33 @@
+﻿## SimStadt DIN18599 Monthly Energy Balance
+#
+# Weather data source;PVGIS v5_1 - SARAH - From 2005 to 2016 hourly interpolated with Insel
+# Location;N52_6__E13_4
+# Coordinate reference system;EPSG:25833
+# Latitude;52,53;°
+# Longitude;13,31;°
+# Radiation model;pvgis_SARAH_2005_2016_Hay
+# Calculation Mode;HEATING
+# Consumer behaviour;IWU_NUTZUNG
+#
+# Building physics library;German Building Typology Library IWU (http://www.iwu.de)
+# Building usage library;Building Usage Library (based on UsageLibrary.xlsx, sheet: Germany)
+# Has custom building usage codes?;false
+#
+# SimStadt version;0.10.0-SNAPSHOT (master, rev. 6d7c707, 20230828)
+# Created at;2024/08/08 15:45:14
+# Cache version;7
+#
+GMLId;ParentGMLId;Latitude;Longitude;X-coordinate;Y-coordinate;LOD;Year of construction;Year of refurbishment;Refurbishment Variant;ALKIS code;PrimaryUsageZoneType;PrimaryUsageZoneArea;SecondaryUsageZoneType;SecondaryUsageZoneArea;BuildingType;Footprint area;Total wall thermal area above ground;Total wall thermal area below ground;Total outwall area;Total sharedwall area;Total roof area;Gross volume;Is Gross volume approximated?;Heated volume;Ridge/mean Height;Eaves/mean Height;Storey number;Average Storey Height;Number of households;Number of occupants;Attic Heating;Basement Heating;Basement ceiling height above ground;Surface area to volume ratio;Heated area;Mean Uvalue;Specific domestic hot water demand;Specific space heating demand;Total Yearly Heat+DHW demand;January Heating Demand;February Heating Demand;March Heating Demand;April Heating Demand;May Heating Demand;June Heating Demand;July Heating Demand;August Heating Demand;September Heating Demand;October Heating Demand;November Heating Demand;December Heating Demand
+[-];[-];[°];[°];[?];[?];LOD;[YYYY];[YYYY];[-];[-];[-];[m²];[-];[m²];[-];[m²];[m²];[m²];[m²];[m²];[m²];[m³];[0/1];[m³];[m];[m];[-];[m];[-];[-];[-];[-];[m];[m⁻¹];[m²];[W/(m²·K)];[kWh/(m²·a)];[kWh/(m²·a)];[kWh/a];[kWh];[kWh];[kWh];[kWh];[kWh];[kWh];[kWh];[kWh];[kWh];[kWh];[kWh];[kWh]
+DEBE3D04YY500007M4;;52,52856;13,31104;385426,79;5821169,57;LOD2;1900;;Original;1010;residential;58,9;none;0,0;EFH;70,9;123,5;0,0;137,0;0,0;70,9;210,5;false;184,1;3,0;2,97;1;2,6;1;2;NO_ROOM;NOT_HEATED;0,4;1,325;58,9;1,32;15,8;270,0;16840;3696;3023;2205;517;2;0;0;0;0;917;2295;3252
+DEBE3D04YY50000OKi;;52,52769;13,31305;385560,94;5821069,82;LOD2;1900;;Original;2143;non-heated;203,0;none;0,0;RH;218,0;192,0;0,0;255,9;59,5;218,0;852,2;false;634,3;3,9;3,91;1;2,9;0;0;NO_ROOM;NOT_HEATED;1,0;0,812;203,0;1,14;0,0;0,0;0;0;0;0;0;0;0;0;0;0;0;0;0
+DEBE3D04YY50000F8S;;52,52730;13,31380;385610,55;5821024,47;LOD2;1900;;Original;2120;industry;1285,2;none;0,0;RH;936,4;448,0;0,0;558,5;124,1;950,6;5346,0;false;4409,5;7,0;3,74;2;3,0;0;0;HEATED;NOT_HEATED;1,0;0,457;1285,2;1,45;32,9;80,5;145695;28233;21736;11918;659;0;0;0;0;0;2306;14589;24022
+DEBE3D04YY500003sF;;52,52775;13,31346;385589,14;5821075,70;LOD2;1900;;Original;2143;non-heated;390,7;none;0,0;RH;243,2;287,1;0,0;287,1;52,1;245,1;1221,0;false;1221,0;5,7;5,69;2;2,8;0;0;NO_ROOM;NO_ROOM;0,0;0,635;390,7;1,15;0,0;0,0;0;0;0;0;0;0;0;0;0;0;0;0;0
+DEBE3D04YY50000QZa;;52,52770;13,31327;385575,74;5821070,30;LOD2;1900;;Original;2143;non-heated;123,0;none;0,0;RH;82,5;88,6;0,0;91,0;112,1;83,4;395,8;false;384,3;5,9;5,94;2;2,9;0;0;NO_ROOM;NOT_HEATED;0,1;0,649;123,0;1,19;0,0;0,0;0;0;0;0;0;0;0;0;0;0;0;0;0
+DEBE3D04YY500005Q9;;52,52798;13,31039;385381,46;5821105,29;LOD2;1900;;Original;1010;residential;10,3;none;0,0;EFH;12,4;37,4;0,0;37,4;0,0;12,4;32,4;false;32,2;2,6;2,62;1;2,6;1;1;NO_ROOM;NOT_HEATED;0,0;1,922;10,3;1,47;15,8;345,8;3726;870;702;484;85;0;0;0;0;0;158;510;756
+DEBE3D04YY50000LLG;;52,52749;13,31373;385606,57;5821045,49;LOD2;1900;;Original;2143;non-heated;158,2;none;0,0;RH;108,3;82,4;0,0;82,9;111,8;109,9;494,5;false;494,5;5,2;5,24;2;2,6;0;0;NO_ROOM;NO_ROOM;0,0;0,608;158,2;1,03;0,0;0,0;0;0;0;0;0;0;0;0;0;0;0;0;0
+DEBE3D04YY50000OcC;;52,52741;13,31349;385589,93;5821037,41;LOD2;1900;;Original;2120;industry;421,7;none;0,0;RH;263,8;296,2;0,0;296,2;42,2;265,7;1160,9;false;1160,9;5,0;4,96;2;2,5;0;0;NO_ROOM;NO_ROOM;0,0;0,711;421,7;1,13;32,9;66,6;41937;7611;5940;3373;214;0;0;0;0;0;642;3881;6420
+DEBE3D04YY50000I3M;;52,52938;13,30613;385095,68;5821268,37;LOD2;1905;;Original;1010;residential;3294,1;none;0,0;MFH;686,3;2746,0;0,0;2837,4;156,2;686,3;10633,1;false;10294,0;15,5;15,49;5;3,0;41;71;NO_ROOM;NOT_HEATED;0,5;0,396;3294,1;1,75;15,8;123,8;460092;93004;75621;54464;13067;618;0;0;0;612;26691;60508;83329
+DEBE3D04YY50000L9h;;52,52940;13,30493;385014,76;5821271,87;LOD2;1905;;Original;1010;residential;2770,6;none;0,0;MFH;636,6;1814,3;0,0;1868,3;0,0;765,4;8856,8;false;8658,1;15,3;12,01;5;3,0;35;60;HEATED;NOT_HEATED;0,3;0,369;2770,6;1,88;15,8;124,9;389919;79319;64315;45769;9963;400;0;0;0;468;22874;51793;71133
+DEBE3D04YY500001CZ;;52,52840;13,31125;385440,73;5821150,91;LOD2;1900;;Original;1010;residential;218,8;none;0,0;EFH;140,0;218,0;0,0;218,0;0,0;142,4;526,7;false;526,7;4,4;4,39;2;2,2;1;3;NO_ROOM;NO_ROOM;0,0;0,950;218,8;1,22;15,8;159,8;38432;7640;6317;4899;1613;119;0;0;0;90;2459;5013;6817
+DEBE3D04YY50000D8T;;52,52853;13,30687;385144,04;5821172,25;LOD2;1900;;Original;2523;industry;3,7;none;0,0;EFH;4,0;12,1;0,0;12,2;0,0;4,0;5,8;false;5,8;1,5;1,46;1;1,5;0;0;NO_ROOM;NO_ROOM;0,0;3,459;3,7;1,43;32,9;189,9;832;198;154;86;3;0;0;0;0;0;8;95;165
