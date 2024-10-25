@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_345" class="java.beans.XMLDecoder">
+ <object class="de.hftstuttgart.simstadtworkflowsteps.energy.LoadProfileGenerator">
+  <void property="name">
+   <string>Base</string>
+  </void>
+ </object>
+</java>
