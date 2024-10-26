@@ -8,6 +8,18 @@
     <string>a.step</string>
    </void>
   </void>
+  <void property="calculationMode">
+   <object class="java.lang.Enum" method="valueOf">
+    <class>eu.simstadt.buildingenergymodels.MonthlyBalanceDIN18599$CalculationMode</class>
+    <string>HEATING_AND_COOLING</string>
+   </object>
+  </void>
+  <void property="consumerBehaviour">
+   <object class="java.lang.Enum" method="valueOf">
+    <class>eu.simstadt.buildingenergymodels.MonthlyBalanceDIN18599$ConsumerBehaviourType</class>
+    <string>STANDARD</string>
+   </object>
+  </void>
   <void property="name">
    <string>Base</string>
   </void>
