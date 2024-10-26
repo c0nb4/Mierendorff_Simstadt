@@ -18,7 +18,7 @@
    </object>
   </void>
   <void property="weatherFile">
-   <string>AMY_2021.TMY3</string>
+   <string>AMY_2021.TMY3.txt</string>
   </void>
  </object>
 </java>

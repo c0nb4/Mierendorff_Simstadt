@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_345" class="java.beans.XMLDecoder">
+ <object class="eu.simstadt.workflows.CityGmlWorkflow" id="CityGmlWorkflow0">
+  <void class="de.hftstuttgart.hierarchicworkflow.Workflow" method="getField">
+   <string>selectedStartStepPath</string>
+   <void method="set">
+    <object idref="CityGmlWorkflow0"/>
+    <string>a.step</string>
+   </void>
+  </void>
+  <void class="de.hftstuttgart.hierarchicworkflow.WorkflowStep" method="getField">
+   <string>startStep</string>
+   <void method="set">
+    <object idref="CityGmlWorkflow0"/>
+    <boolean>true</boolean>
+   </void>
+  </void>
+  <void property="cityGmlFileNames">
+   <void method="add">
+    <string>merged_output.gml</string>
+   </void>
+  </void>
+  <void property="name">
+   <string>Full_Mierendorff_2022_HourlyHeatDemand</string>
+  </void>
+  <void property="workflowProvider">
+   <object class="de.hftstuttgart.simstadtworkflows.energy.HourlyHeatDemandAnalysisWorkflowProvider"/>
+  </void>
+ </object>
+</java>
