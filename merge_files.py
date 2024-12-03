@@ -17,6 +17,13 @@ def merge_gml_files(gml_files, output_file):
     tree = ET.parse(gml_files[0])
     root = tree.getroot()
     
+    # Store original namespaces
+    namespaces = dict([node for _, node in ET.iterparse(gml_files[0], events=['start-ns'])])
+    
+    # Register all namespaces
+    for prefix, uri in namespaces.items():
+        ET.register_namespace(prefix, uri)
+    
     # Iterate through the rest of the files and append their content to the root
     for gml_file in gml_files[1:]:
         other_tree = ET.parse(gml_file)
@@ -26,7 +33,7 @@ def merge_gml_files(gml_files, output_file):
         for elem in other_root:
             root.append(elem)
     
-    # Write the merged content to the output file
+    # Write the merged content to the output file while preserving namespaces
     tree.write(output_file, encoding='utf-8', xml_declaration=True)
 
 if __name__ == '__main__':
@@ -52,7 +59,7 @@ if __name__ == '__main__':
             raise ValueError("No GML files found in input folder")
             
         # Create output file path
-        output_file = os.path.join(output_folder, "merged_output.gml")
+        output_file = os.path.join(output_folder, "merged_output_2.gml")
         
         # Merge the files
         merge_gml_files(gml_files, output_file)
