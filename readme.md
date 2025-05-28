@@ -21,6 +21,11 @@ The python script 'change_use_type.py' transforms the CityGML use type to one ne
 
 All code for simulation is wihin the "SimStadt" folder. If you open the folder with SimStadt, the resepctive workflows can be run. 
 
+## SimStadt and Java
+
+SimStadt does require Java. However, if you have multiple version of Java on your PC installed, this can get confusing. In [Auxilary](auxillary\SimStadt_2.bat) a changed SimStadt file is given, that explains how to link a Java version specifically for SimStadt and has updated loggin.
+
+
 ## Contact 
 
 For any information or inquires reach out to [Felix Rehmann](mailto:Rehmann@tu-berlin.de).
